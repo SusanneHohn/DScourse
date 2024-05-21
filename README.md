@@ -6,3 +6,13 @@ Test repo for data science course
 * figs: generated plots
 * data: input data
 * doc: 
+
+## Other stuff
+
+*Item 1
+
+library(tidyverse)
+d <- read_csv("https://tinyurl.com/gapcsv")
+write_csv(d, "data/gapminder.csv")
+
+
